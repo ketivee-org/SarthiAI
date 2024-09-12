@@ -1,0 +1,29 @@
+# Ignore data files
+/data/
+
+
+# Ignore web interface files
+/web_interface
+/web-interface/node_modules/
+/web-interface/build/
+/web-interface/dist/
+
+# Ignore backend server files
+/backend/node_modules/
+/backend/logs/
+/backend_interface
+/training/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+# Configuration file for Sarthi AI Models
+
+model:
+  name: "sarthi_model"
+  version: "1.0.0"
+  type: "neural_network"
+
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss_function: "categorical_crossentropy"
+
+data:
+  train_data_path: "/path/to/train/data"
+  validation_data_path: "/path/to/validation/data"
+  test_data_path: "/path/to/test/data"
+  input_shape: [224, 224, 3]
+  num_classes: 10
+
+logging:
+  level: "INFO"
+  log_file: "/path/to/log/file.log"
+
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+
+deployment:
+  export_path: "/path/to/export/model"
+  format: "SavedModel"
