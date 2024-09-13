@@ -44,3 +44,7 @@ if __name__ == "__main__":
     print(ai.read_pdf("example.pdf"))
     print(ai.read_docx("example.docx"))
     print(ai.encode_audio("example.wav"))
+    
+else:
+    ai = SarthiAI()
+
