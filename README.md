@@ -52,7 +52,7 @@ SarthiAI/ai_models/
 │   ├── emotion_detection.py
 │   ├── config.yaml
 │   └── checkpoints/
-
+new model add here
 
 
 
