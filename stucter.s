@@ -43,6 +43,8 @@ SarthiAI/ai_models/
 │   ├── emotion_detection.py
 │   ├── config.yaml
 │   └── checkpoints/
+│
+│______New models add here in feture
 
 
 
