@@ -1,8 +1,10 @@
 # SarthiAI
 ![alt text](pixel@2x.png)
-Welcome to Sarthi AI project This program also called as sarthi Devlopment Program
 
-We all part of this program. 
+
+Welcome to the Sarthi AI project This program is also called the Sarthi Development Program
+
+We are all part of this program. 
 
 
 
@@ -10,7 +12,7 @@ We all part of this program.
 
 
 
-Workflow Overview:---
+# Workflow Overview:---
 ---------------------------------
 User Interaction: The user accesses the web interface, uploads code or media, or interacts with Sarthi AI for a specific task (e.g., website generation).
 Backend API: The backend manages the interaction between the various AIs (Sarthi, Yug, Aadi, Arth, Ved) and handles requests via REST APIs.
