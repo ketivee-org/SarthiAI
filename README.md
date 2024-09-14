@@ -8,5 +8,4 @@ We all part of this program.
 
 # Project Stucter 
 The project stucter in seprate file please check that if you have any suggestions let us know. 
-/structure.s . 
-https://github.com/ketivee-org/SarthiAI/blob/main/stucter.s
+/main/stucter.s
