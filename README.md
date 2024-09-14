@@ -7,4 +7,3 @@ We all part of this program.
 
 
 # Project Stucter
-#(stucter.s)
