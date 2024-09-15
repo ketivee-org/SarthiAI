@@ -7,6 +7,14 @@ Welcome to Sarthi AI project This program also call as Sarthi Devlopment Program
 
 We all part of this program 
 
+# project
+In this project you can find best ai models for your specific need
+Every thing that you know boost you knowdage with SarthiAI.
+
+# Capbality
+
+
+
 
 
 
