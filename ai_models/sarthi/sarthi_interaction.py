@@ -1,53 +1,35 @@
-import os
+# sarthi_interaction.py
 
-class SarthiInteraction:
+from ai_models.yug.model import YugModel
+from ai_models.aadi.model import AadiModel
+from ai_models.arth.model import ArthModel
+from ai_models.ved.model import VedModel
+
+class SarthiAI:
     def __init__(self):
-        self.greet_user()
+        self.yug = YugModel()
+        self.aadi = AadiModel()
+        self.arth = ArthModel()
+        self.ved = VedModel()
 
-    def greet_user(self):
-        print("Hello! I am Sarthi, your assistant. How can I help you today?")
-
-    def get_user_input(self):
-        return input("You: ")
-
-    def respond_to_user(self, user_input):
-        if "create file" in user_input.lower():
-            self.create_file()
-        elif "read file" in user_input.lower():
-            self.read_file()
-        elif "write to file" in user_input.lower():
-            self.write_to_file()
-        elif "exit" in user_input.lower():
-            print("Goodbye!")
-            exit()
+    def process_request(self, request):
+        """Process user request and interact with other AIs"""
+        task_type = request.get('task_type')
+        
+        if task_type == 'generate_3d':
+            return self.yug.generate_3d(request['input_data'])
+        elif task_type == 'generate_music':
+            return self.aadi.generate_music(request['input_data'])
+        elif task_type == 'generate_video':
+            return self.arth.generate_video(request['input_data'])
+        elif task_type == 'emotion_recognition':
+            return self.ved.recognize_emotion(request['image_data'])
         else:
-            print("I'm sorry, I didn't understand that. Can you please repeat?")
+            return {"error": "Unknown task type"}
 
-    def create_file(self):
-        file_name = input("Enter the name of the file to create: ")
-        with open(file_name, 'w') as file:
-            print(f"File '{file_name}' created successfully.")
-
-    def read_file(self):
-        file_name = input("Enter the name of the file to read: ")
-        if os.path.exists(file_name):
-            with open(file_name, 'r') as file:
-                print(file.read())
-        else:
-            print(f"File '{file_name}' does not exist.")
-
-    def write_to_file(self):
-        file_name = input("Enter the name of the file to write to: ")
-        if os.path.exists(file_name):
-            content = input("Enter the content to write: ")
-            with open(file_name, 'a') as file:
-                file.write(content + "\n")
-            print(f"Content written to '{file_name}' successfully.")
-        else:
-            print(f"File '{file_name}' does not exist.")
-
-if __name__ == "__main__":
-    sarthi = SarthiInteraction()
-    while True:
-        user_input = sarthi.get_user_input()
-        sarthi.respond_to_user(user_input)
+    def interact(self, user_input):
+        """Main user interaction logic for Sarthi AI"""
+        print(f"Sarthi AI received request: {user_input}")
+        response = self.process_request(user_input)
+        print(f"Sarthi AI processed response: {response}")
+        return response
