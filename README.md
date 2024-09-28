@@ -15,7 +15,7 @@ We are all part of this program.
 
 All info about project stucter is in stucter.s file.
 If you want to know more about stucter then you can check out stucter.s file in this folder.
-Heve you any su
+Have you any suggestion or any other problem then you can contact us at <metaketivee@gmail.com> or you can contact us at any one of these social media platforms.
 
 
 
