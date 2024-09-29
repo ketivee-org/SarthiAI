@@ -1,0 +1,6 @@
+opencv-python
+pytesseract
+SpeechRecognition
+pyttsx3
+pyautogui
+keyboard
