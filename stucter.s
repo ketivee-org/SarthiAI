@@ -158,11 +158,36 @@ SarthiAI/logs/
 └── error_log.txt             # Logs for errors and debugging
 
 
-Workflow Overview:---
----------------------------------
-User Interaction: The user accesses the web interface, uploads code or media, or interacts with Sarthi AI for a specific task (e.g., website generation).
-Backend API: The backend manages the interaction between the various AIs (Sarthi, Yug, Aadi, Arth, Ved) and handles requests via REST APIs.
-Training & Output: The training folder processes new datasets, and the outputs (websites, apps, media) are stored in the output files directory.
-Collaboration of AIs: Ved recognizes faces and emotions, Aadi generates music, Arth handles video and media, and Yug generates 3D items.
 
-------------------------------------- 
+
+
+# stucter for AI models in the backend server.
+
+
++----------------------------+     +----------------------------+ 
+|       User Interaction      |     |       Backend Server       |  
+|   (Web Interface - Next.js) |     |     (Flask/FastAPI API)    | 
+| +------------------------+  |     | +------------------------+ |
+| | Interaction with AIs    |  | --> | | API Routes to AI Models| |
+| | File Upload (datasets)  |  |     | |                        | |
+| | Display Outputs         |  | <-- | | Manages Outputs, Logs  | |
+| +------------------------+  |     | +------------------------+ |
++----------------------------+     +----------------------------+ 
+                                         |
+                                         v
+ +-------------------+ +-----------------+ +-------------------+
+ |     Sarthi AI     | |      Yug AI      | |     Arth AI       |
+ |  (Coordinator)    | | (3D Generation)  | | (Video/Multimedia)|
+ +-------------------+ +-----------------+ +-------------------+
+                                         |
+                                         v
+                                +------------------+
+                                |      Aadi AI      |
+                                |  (Music/Sound)    |
+                                +------------------+
+                                         |
+                                         v
+                                +------------------+
+                                |      Ved AI       |
+                                | (Face/Emotion Rec)| 
+                                +------------------+

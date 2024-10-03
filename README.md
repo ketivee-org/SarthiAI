@@ -31,7 +31,7 @@ that's why we are working on this open-source project.
 
 If you want to help us create this powerful tool, your every contribution is welcome.
 you can copy and contribute to this project by copying or forking our project. 
-https://github.com/ketivee Every repo from us is free to use without any payment issues.
+https://github.com/ketivee-org Every repo from us is free to use without any payment issues.
 
 
 
