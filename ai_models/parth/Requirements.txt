@@ -1,6 +1,6 @@
-opencv-python
-pytesseract
+pyautogui
+opencv-python-headless
+transformers
 SpeechRecognition
 pyttsx3
-pyautogui
-keyboard
+flask   

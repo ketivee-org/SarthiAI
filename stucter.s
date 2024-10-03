@@ -75,7 +75,7 @@ SarthiAI/web_interface/
 
 4. Backend Server Directory (backend_server/)
 
-SarthiAI/backend_server/
+SarthiAI/backend/
 │
 ├── app.py                    # Main server script (Flask/FastAPI/Django)
 ├── config.yaml               # Server configurations (database, API keys)

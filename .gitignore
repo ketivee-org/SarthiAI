@@ -2,13 +2,13 @@
 
 # Ignore web interface files
 
-/web-interface/node_modules/
-/web-interface/build/
-/web-interface/dist/
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
 
 # Ignore backend server files
-/backend_server/api
-/backend_server/user
+/backend/api
+/backend/user
 # Ignore envirment variable
 
 /.env/
@@ -23,7 +23,10 @@
 
 # vistual machine install auto generated files
 
-/desktop
+/desktop/
+
+
+/yug_env/
 
 
 
@@ -38,4 +41,4 @@
 
 
 
-
+*.yaml
