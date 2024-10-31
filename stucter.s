@@ -3,7 +3,7 @@
 SarthiAI/
 │
 ├── ai_models/
-├── web_interface/
+├── frontend/web_interface/
 ├── backend_server/
 ├── training/
 ├── output_files/
@@ -28,7 +28,7 @@ SarthiAI/ai_models/
 │   └── checkpoints/
 │
 ├── aadi/
-│   ├── model.py              # AI for music and sound generation
+│   ├── model.py              # AI for texture generation and images
 │   ├── config.yaml
 │   └── checkpoints/
 │
@@ -38,20 +38,26 @@ SarthiAI/ai_models/
 │   └── checkpoints/
 │
 ├── ved/                      
-│   ├── model.py              # AI for emotion and facial recognition
+│   ├── model.py              # AI for emotion and facial recognition and medical use
 │   ├── face_recognition.py
 │   ├── emotion_detection.py
 │   ├── config.yaml
 │   └── checkpoints/
 │
-│______New models add here in feture
-
+├── parth/                      
+│   ├── model.py              # AI for emotion and facial recognition and medical use
+│   ├── move_mouse.py
+│   ├── cursor.py
+│   ├── README
+│   ├── config.yaml
+│   └── checkpoints/
+│
 
 
 
 3. Web Interface Directory (web_interface/)
 
-SarthiAI/web_interface/
+SarthiAI/frontend/web_interface
 │
 ├── next.config.js            # Next.js configuration
 ├── package.json              # Dependencies

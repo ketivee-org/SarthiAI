@@ -2,9 +2,7 @@
 
 # Ignore web interface files
 
-/frontend/node_modules/
-/frontend/build/
-/frontend/dist/
+/frontend/web_interface/node_modules/
 
 # Ignore backend server files
 /backend/api
