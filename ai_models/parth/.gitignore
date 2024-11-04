@@ -1,0 +1,42 @@
+
+
+# Ignore web interface files
+
+/frontend/web_interface/node_modules/
+
+# Ignore backend server files
+/backend/api
+/backend/user
+# Ignore envirment variable
+
+/.env/
+
+
+
+# training data set sensetive info
+
+/training/dataset
+/training/encrypted
+
+
+# vistual machine install auto generated files
+
+/desktop/
+
+
+/yug_env/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*.yaml
