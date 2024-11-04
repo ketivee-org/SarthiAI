@@ -1,0 +1,9 @@
+<Control xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="control.xsd">
+
+    <Name>Parth</Name>
+    <Description>Parth's control</Description>
+    <ControlType>AI</ControlType>
+    <ControlPath>ai_models/parth/control.xml</ControlPath>
+    
+</Control>
