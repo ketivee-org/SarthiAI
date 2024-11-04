@@ -1,7 +1,0 @@
-SpeechRecognition
-python-docx
-PyPDF2
-pydub
-torch
-transformers
-pyaudio
