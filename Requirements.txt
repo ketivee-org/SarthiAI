@@ -1,6 +1,0 @@
-pyautogui
-opencv-python-headless
-transformers
-SpeechRecognition
-pyttsx3
-flask   
