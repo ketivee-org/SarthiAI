@@ -16,7 +16,7 @@ So Check other repo avilable in [@ketivee.org](https://github.com/ketivee-org).
 
 All info about project stucter is in stucter.s file.
 If you want to know more about stucter then you can check out stucter.s file in this folder.
-Have you any suggestion or any other problem then you can contact us at <metaketivee@gmail.com> or you can contact us at any one of these social media platforms.
+Have you any suggestion or any other problem then you can contact us at ketiveegit@ketivee.com or you can contact us at any one of these social media platforms.
 
 
 # Goal Of Ketivee
