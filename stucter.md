@@ -1,5 +1,4 @@
 # Improved File Structure for SarthiAI
-##Improved File Structure for SarthiAI
 
 ## Root Directory (SarthiAI/)
 
@@ -235,7 +234,3 @@ SarthiAI/scripts/
 ```
 
 ---
-
-This file structure ensures that the project remains modular, maintainable, and scalable for production use.
-
-give python script to setup his file stucter
