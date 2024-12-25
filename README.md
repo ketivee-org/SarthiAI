@@ -1,11 +1,6 @@
 # SarthiAI
-
-
-
+![Forks](https://img.shields.io/badge/Forks-0-blue) ![Stars](https://img.shields.io/badge/Stars-0-yellow) ![Likes](https://img.shields.io/badge/Likes-0-brightgreen) [![Ketivee Website](https://img.shields.io/badge/Ketivee-Website-orange)](https://ketivee.com)
 ![alt text](pixel@2x.png)
-# Sarthi AI
-
-![Forks](https://img.shields.io/badge/Forks-0-blue) ![Stars](https://img.shields.io/badge/Stars-0-yellow) ![Likes](https://img.shields.io/badge/Likes-0-brightgreen) ![https://ketivee.com](https://img.shields.io/badge/Ketivee-Website-orange)
 
 Welcome to the **Sarthi AI Development Program**! This initiative, also called the **Sarthi Development Program**, is an open-source effort to create cutting-edge AI tools designed to enhance industries like agriculture, education, medicine, space exploration, entertainment, and more. Founded by "s w a n a y a" and supported by the passionate team at "k e t i v e e," this program is open for anyone to use, modify, and contribute to without restrictions. The core concept revolves around leveraging multiple AI systems working together to achieve groundbreaking results.
 
@@ -170,6 +165,8 @@ Thank you for making a difference.
 ## Join the Sarthi AI Community
 
 Become a part of our growing community. Visit our [GitHub Repository](https://github.com/ketivee-org/SarthiAI) to get started today!
+
+
 
 
 
