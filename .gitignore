@@ -1,6 +1,7 @@
 
 
 # Ignore web interface files
+.vscode
 
 /frontend/web_interface/node_modules/
 
